@@ -6,5 +6,6 @@ Lenguajes utilizados:
 De hipertexto, HTML.
 De estilo, CSS.
 
+Autor del proyecto: Florencia Fregossi, dwfe-online-8.
 
 
