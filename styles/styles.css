@@ -143,22 +143,23 @@ h1 {
     justify-content: center;
 }
 
-h2 {
-    color: white;
-    font-size: 48px;
-    font-family: 'IBM Plex Sans', sans-serif;
-    margin-left: 9%;
-    margin-right: 10%;
-    padding-left: 1%;
-}
-
 article {
     display: flex;
     flex-direction: column;
     justify-content:space-evenly;
+    align-content: center;
     align-items: center;
     width: 100vw;
     height: 51%;
+}
+
+h2 {
+    color: white;
+    font-size: 48px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-self: flex-start;
 }
 
 .rowpic {
@@ -532,7 +533,7 @@ footer {
     }
     
     .poly-shadow {
-        clip-path: polygon(100% 0%, 100% 97%, 0% 100%, 0% 5%);    
+        clip-path: polygon(100% 1%, 100% 97%, 0% 100%, 0% 5%);    
     }
     
     h2 {
@@ -658,9 +659,12 @@ footer {
         margin-top: -53px;
     }
 
-    .second-btn b {
+    .second-btn {
+        width: 90%;
         font-size: 16px;
         line-height: 22px;
+        text-align: center;
+        padding: 17px;
     }
 
     footer {
